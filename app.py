@@ -309,18 +309,17 @@ with tab4:
 
 # --- SECCIÓN 5: ACCIÓN COMUNITARIA ---
 with tab5:
-    st.markdown("### 🎯 Conclusión para la Acción Comunitaria")
-
     st.markdown("""
-    Los datos cuantitativos obtenidos a partir de las 10 encuestas relevadas con Epicollect5 proporcionan **evidencia empírica directa** sobre la cultura alimentaria de los estudiantes de la Escuela Primaria Nº 21 de José León Suárez.
-    """)
+### 📋 Conclusión para la Acción Comunitaria
 
-    st.markdown("#### 🚀 Líneas de Acción Prioritarias:")
-    st.markdown("""
-    * **Promoción del Desayuno:** Teniendo en cuenta que solo 3 de cada 10 desayunan a diario, se requiere fortalecer la cobertura y promoción del desayuno escolar.
-    * **Entorno del Recreo Saludable:** Fomentar alternativas a los ultraprocesados incorporando frutas o lácteos frescos en la oferta del kiosco y la escuela.
-    * **Desconexión Digital en la Mesa:** Aprovechar el alto valor de la comida familiar (90%) para promover momentos compartidos libres de pantallas.
-    """)
+Los datos cuantitativos obtenidos a partir de las 10 encuestas relevadas con Epicollect5 proporcionan evidencia empírica directa sobre la cultura alimentaria de los estudiantes de la Escuela Primaria Nº 21 de José León Suárez.
+
+🚀 **Líneas de Acción Prioritarias:**
+- **Promoción del Desayuno:** Teniendo en cuenta que solo 3 de cada 10 desayunan a diario, se requiere fortalecer la cobertura y la promoción del desayuno escolar como hábito fundamental.
+- **Mejora del Menú del Comedor:** Ante la baja valoración reportada sobre la comida del comedor escolar, resulta prioritario revisar la calidad, variedad y aceptación de las preparaciones ofrecidas para garantizar una nutrición adecuada e incentivada.
+- **Entorno del Recreo Saludable:** Al no contar la escuela con kiosco interno, es clave promover meriendas saludables traídas desde el hogar (como frutas, lácteos o cereales) en reemplazo de los ultraprocesados.
+- **Desconexión Digital en la Mesa:** Aprovechar el alto valor que las familias le otorgan a la comida compartida (90%) para fomentar momentos en la mesa libres de pantallas y dispositivos móviles.
+""")
 
     if df_csv is not None:
         st.divider()
