@@ -331,4 +331,4 @@ Los datos cuantitativos obtenidos a partir de las 10 encuestas relevadas con Epi
 # ---------------------------------------------------------
 st.divider()
 st.caption(
-    "Diagnóstico elaborado para la materia de Investigación Cuantitativa — Universidad Nacional de San Martín (UNSAM)")
+    "Diagnóstico elaborado para la materia Metodologías Cuantitativas — Universidad Nacional de San Martín (UNSAM)")
