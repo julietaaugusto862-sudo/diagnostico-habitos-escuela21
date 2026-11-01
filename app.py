@@ -11,7 +11,7 @@ st.set_page_config(
     layout="wide"
 )
 
-# Estilos CSS personalizados para tarjetas de métricas
+# Estilos CSS personalizados para tarjetas de métricas y reducir espacios del título
 st.markdown("""
     <style>
     .metric-card {
@@ -25,13 +25,19 @@ st.markdown("""
     .metric-title { font-size: 13px; color: #555; font-weight: 600; text-transform: uppercase; }
     .metric-value { font-size: 22px; color: #1b5e20; font-weight: bold; margin: 4px 0; }
     .metric-sub { font-size: 12px; color: #666; }
+    
+    /* Reduce el espacio entre el title y el header siguiente */
+    h1 + div h2 {
+        margin-top: -15px !important;
+    }
     </style>
 """, unsafe_allow_html=True)
 
-st.title('🍎 Hábitos alimentarios en niños y niñas de una escuela primaria de José León Suárez:')
+# Título y Header divididos
+st.title('🍎 Hábitos alimentarios en niños y niñas de la Escuela Primaria Nº 21 "Coraceros de la Patria" de José León Suárez')
 st.header('Un diagnóstico cuantitativo para la acción comunitaria')
 st.caption(
-    "Investigación de Acción Comunitaria — Escuela Primaria Nº 21 'Coraceros de la Patria' (José León Suárez, Gral. San Martín)")
+    "Investigación de Acción Comunitaria — UNSAM (Gral. San Martín)")
 
 # ---------------------------------------------------------
 # 1. Muestra y Datos del Diagnóstico
@@ -308,7 +314,7 @@ with tab4:
     st.info(
         "📱 **Impacto en la Ingesta:** La mitad de quienes comen con pantallas indica que 'no sabe' o no nota si modifica la cantidad de alimento ingerido.")
 
-    # --- NUEVO GRÁFICO: DISPOSITIVOS MÁS UTILIZADOS ---
+    # --- GRÁFICO DE DISPOSITIVOS MÁS UTILIZADOS ---
     st.markdown("---")
     st.markdown("#### 📱 Dispositivos Más Utilizados en el Hogar")
     
