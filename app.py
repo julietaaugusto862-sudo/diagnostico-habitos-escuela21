@@ -307,6 +307,30 @@ with tab4:
     st.info(
         "📱 **Impacto en la Ingesta:** La mitad de quienes comen con pantallas indica que 'no sabe' o no nota si modifica la cantidad de alimento ingerido.")
 
+    # --- NUEVO GRÁFICO: DISPOSITIVOS MÁS UTILIZADOS ---
+    st.markdown("---")
+    st.markdown("#### 📱 Dispositivos Más Utilizados en el Hogar")
+    
+    df_dispositivos = pd.DataFrame({
+        'Dispositivo': ['Televisión (Total)', 'Celular (Total)', 'Ninguno / Otro'],
+        'Cantidad': [5, 5, 3],
+        'Etiqueta': ['5 de 10 (50%)', '5 de 10 (50%)', '3 de 10 (30%)']
+    })
+    
+    fig_disp = px.bar(
+        df_dispositivos,
+        x='Dispositivo',
+        y='Cantidad',
+        text='Etiqueta',
+        title="Dispositivos Electrónicos Mencionados (N=10)",
+        color='Dispositivo',
+        color_discrete_sequence=['#2e7d32', '#82ca9d', '#a5d6a7']
+    )
+    fig_disp.update_layout(showlegend=False)
+    st.plotly_chart(fig_disp, use_container_width=True)
+    
+    st.info("💡 **Nota:** Se evidencia un uso compartido y equitativo entre la televisión y el celular como principales pantallas en la cotidianeidad de los estudiantes.")
+
 # --- SECCIÓN 5: ACCIÓN COMUNITARIA ---
 with tab5:
     st.markdown("""
