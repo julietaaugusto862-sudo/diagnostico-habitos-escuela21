@@ -34,7 +34,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Título y Header divididos
-st.title('🍎 Hábitos alimentarios en niños y niñas de la Escuela Primaria Nº 21 "Coraceros de la Patria" de José León Suárez:')
+st.title('🍎 Hábitos alimentarios en niños y niñas de una escuela primaria de José León Suárez:')
 st.header('Un diagnóstico cuantitativo para la acción comunitaria')
 st.caption(
     "Investigación de Acción Comunitaria — UNSAM (Gral. San Martín)")
