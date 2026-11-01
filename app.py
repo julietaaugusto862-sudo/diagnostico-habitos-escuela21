@@ -28,7 +28,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title('🍎 Hábitos alimentarios en niños y niñas de la Escuela Primaria Nº 21 "Coraceros de la Patria" de José León Suárez: un diagnóstico cuantitativo para la acción comunitaria')
+st.header('🍎 Hábitos alimentarios en niños y niñas de la Escuela Primaria Nº 21 "Coraceros de la Patria" de José León Suárez: un diagnóstico cuantitativo para la acción comunitaria')
 st.caption(
     "Investigación de Acción Comunitaria — Escuela Primaria Nº 21 'Coraceros de la Patria' (José León Suárez, Gral. San Martín)")
 
