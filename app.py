@@ -343,7 +343,7 @@ with tab5:
     st.markdown("""
 ### 📋 Conclusión para la Acción Comunitaria
 
-Los datos cuantitativos obtenidos a partir de las 10 encuestas relevadas con Epicollect5 proporcionan evidencia empírica directa sobre la cultura alimentaria de los estudiantes de la Escuela Primaria Nº 21 de José León Suárez.
+Los datos cuantitativos obtenidos a partir de las 10 encuestas relevadas con Epicollect5 proporcionan evidencia empírica directa sobre la cultura alimentaria de los estudiantes de la Escuela Primaria Nº 21 de José León Suárez. A partir de los hallazgos, se evidencia la necesidad de implementar estrategias de intervención orientadas a mejorar los hábitos alimentarios de la población infantil, combinando la promoción desde el ámbito escolar y en interacción con el entorno doméstico y familiar, que ejerce una alta influencia sobre las ingestas cotidianas.
 
 🚀 **Líneas de Acción Prioritarias:**
 - **Promoción del Desayuno:** Teniendo en cuenta que solo 3 de cada 10 desayunan a diario, se requiere fortalecer la cobertura y la promoción del desayuno escolar como hábito fundamental.
