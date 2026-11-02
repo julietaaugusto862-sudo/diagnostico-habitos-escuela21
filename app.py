@@ -181,7 +181,7 @@ with tab1:
 # --- EJE 2: ENTORNO FAMILIAR ---
 with tab2:
     st.markdown("### Eje 2: Entorno familiar")
-    st.caption("Preguntas asociadas: 7, 8 y 9 del cuestionario base (compañía, lugar físico y preparación).")
+    st.caption("Este eje analiza los hábitos domésticos en torno a las comidas, el espacio físico donde se realizan y el acompañamiento.")
 
     col_e2a, col_e2b = st.columns(2)
 
@@ -228,7 +228,7 @@ with tab2:
 # --- EJE 3: ENTORNO ESCOLAR ---
 with tab3:
     st.markdown("### Eje 3: Entorno escolar (Comedor y recreos)")
-    st.caption("Preguntas asociadas: 10 y 11 del cuestionario base.")
+    st.caption("Este eje examina la relación de los estudiantes con la oferta alimentaria de la institución y sus consumos durante los recreos.")
 
     col_e3a, col_e3b = st.columns(2)
 
@@ -272,7 +272,7 @@ with tab3:
 # --- EJE 4: PANTALLAS Y ACTIVIDAD FÍSICA ---
 with tab4:
     st.markdown("### Eje 4: Uso de pantallas, sedentarismo y actividad física")
-    st.caption("Preguntas asociadas: 12 y 13 del cuestionario base.")
+    st.caption("Evalúa el uso de dispositivos digitales durante las ingestas, su impacto en la cantidad de comida y los niveles de movimiento semanal.")
 
     col_e4a, col_e4b = st.columns(2)
 
