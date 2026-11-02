@@ -134,7 +134,7 @@ tab1, tab2, tab3, tab4, tab5 = st.tabs([
 # --- EJE 1: FRECUENCIAS DE CONSUMO ---
 with tab1:
     st.markdown("### Eje 1: Frecuencias de consumo y esquema de comidas")
-    st.caption("Preguntas asociadas: 1, 2, 3, 4, 5, 6 y 8 del cuestionario base.")
+    st.caption("Este eje abarca el cumplimiento de las cuatro comidas principales, el desayuno y la frecuencia semanal de ingesta de alimentos clave (frutas, verduras, carnes, bebidas).")
 
     col_e1a, col_e1b = st.columns(2)
 
